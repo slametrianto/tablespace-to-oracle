@@ -8,3 +8,6 @@ autoextend on next 50m maxsize unlimited logging online permanent
 extent management local autoallocate blocksize 8k
 segment space management auto flashback on;
 
+=> cek tablespace
+select * from dba_tablespaces;
+
