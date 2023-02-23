@@ -17,7 +17,7 @@ Select name from v$datafile;
 
 
 => create tablespace ASM(automatic storage management)
-alter tablespace BERKAS  add datafile '+DATA' size 10G;
+alter tablespace BERKAS  add datafile '+DATA' size 10M;
 
 => cek tbs
 SELECT DFQ.TABLESPACE_NAME "Tablespace Name"
