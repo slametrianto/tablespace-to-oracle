@@ -11,3 +11,11 @@ segment space management auto flashback on;
 => cek tablespace
 select * from dba_tablespaces;
 
+
+=>cek datafile tablespace
+Select name from v$datafile;
+
+
+=> create tablespace ASM(automatic storage management)
+alter tablespace BERKAS  add datafile '+DATA' size 10G;
+
